@@ -12,48 +12,37 @@
     align-items: center;
 }
 
-.icon{
-    display: flex;
-   
-}
 .colonna-main{
     height: calc(100vh - 160px);
-    background-color: aquamarine;
-    overflow: auto;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
-    
-    
-   
-
-}
-
-.box-user{
+    justify-content: space-around;
+    justify-content: center;
     margin: 0 auto;
 }
 
 .mini-01{
     background-color: #4a4a4a;
-    height: 40px;
+    height: 30px;
     width: 150px;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
     font-size: 20px;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 5px;
     margin-right: 10px;  
 }
 
 .mini-02{
     background-color: #4a4a4a;
-    height: 40px;
+    height: 30px;
     width: 40px;   
-    border-radius: 15px;
+    border-radius: 10px;
     text-align: center;
     color: white;
-    padding-top: 12px;
+    padding-top: 8px;
     margin-right: 10px;
-
 }
 
 .gear{
@@ -62,12 +51,40 @@
 }
 
 .user{
-    height: 200px;
-    width: 200px;
+    flex-basis: 15vw;
+    height: 15vh;
     background-color: blue;
     border: 2px solid black;
-
+    position: relative;
 }
+
+.img{
+    height: 14.7vh;
+    width: 15vw;
+    display: block;
+}
+.opacity{
+    position: absolute;
+    bottom: 0vh;
+    left: 0;
+    height: 25px;
+    width: 150px;
+    background-color: #556371;
+    padding-top: 5px;
+    opacity: 0.5;
+}
+
+.mic-testo{
+    position: absolute;
+    bottom: 0vh;
+    left: 0;
+    color: white;
+    text-align: left;
+}
+
+
+
+
 
 
 
@@ -81,5 +98,5 @@
 
 .colonna-footer{
     height: 80px;
-background-color: black;
+background-color: #222222;
 }
